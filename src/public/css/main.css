@@ -1,0 +1,32 @@
+body{
+    background: #8A2387;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+
+.artist_name_title
+{
+    padding: 25px;
+    font-family: 'Great Vibes', cursive;
+    width: 100%;
+    margin: 0 auto;
+}
+
+div header #makeupimagecorusel .carousel-inner .carousel-item img
+{
+    height: 500px;
+}
+
+div header div .card_about_me
+{
+    height: 500px;
+    color: #fff;
+    margin: 0 auto;
+    
+}
+
+footer p
+{
+    font-family: 'Great Vibes', cursive;
+}

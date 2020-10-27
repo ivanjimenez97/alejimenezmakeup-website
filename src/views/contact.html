@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <%- include ('partials/head.html') %>
+</head>
+<body>
+    <%- include ('partials/navigation.html') %>
+    
+    <h1 class="text-center artist_name_title">Contact me</h1>
+
+    <div class="container">
+        <!--Div card container-->
+        <div class="row justify-content-center mb-3">
+            <!--Card-->
+            <div class="card  bg-dark">
+              <div class="card-header">
+                <h5 class="text-center">Information about how to contact me.</h5>
+              </div>
+              <div class="card-body">
+                <form>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputEmail4">Nombre</label>
+                        <input type="text" class="form-control" id="name" placeholder="Name">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputPassword4">Apellido</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputAddress">Asunto</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="Reason why you write">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputAddress2">Descripción</label>
+                      <textarea class="form-control" id="validationTextarea" 
+                      placeholder="Description" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success">Enviar</button>
+                  </form>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <%- include('partials/footer.html')%>
+</body>
+</html>
